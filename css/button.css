@@ -1,0 +1,15 @@
+.form__button{
+background-color: teal;
+max-width: 479px;
+width: 100%;
+padding: 10px;
+margin:0px;
+border: none;
+color: white;
+
+}
+
+.form__button:hover{
+ background-color: rgba(136, 184, 247, 0.904);
+
+}
