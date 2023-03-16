@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,23 +10,20 @@
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/container.css">
   <link rel="stylesheet" href="css/body.css">
-
   <title>Kalkulator walut</title>
 </head>
-
 <body class="body">
-
-
-    <div class="container">
-      <h1 class="h1">Kalkulator walut</h1>
-      <form class="form js-form">
-  
+  <div class="container">
+    <h1 class="h2">Przelicznik walut</h2>
+    <form class="form js-form">
+      <p class="form__paragrafAmount">
         <label>
           <span class="form__labelText">PLN*</span>
         </label>
-        <input class="form__field js-amount" placeholder="Wpisz kwotę w zł" step="0.01">
+        <input class="form__field js-amount" placeholder="Wpisz kwotę w złotych" step="0.01">
+      </p>
+      <p class="form__paragrafCurrency">
         <label>
-  
           <span class="form__labelText">Waluta</span>
         </label>
         <select class="form__field js-currency">
@@ -35,20 +31,14 @@
           <option value="EUR">EUR</option>
           <option value="GBP">GBP</option>
         </select>
-  
-        <button class="form__button">Przelicz</button>
-  
-        <p>
-          <label>
-            <span class="form__span js-result">Wynik: N/A</span>
-          </label>
-        </p>
-  
-      </form>
-    </div>
-
- 
- 
+      </p>
+      <button class="form__button">Przelicz</button>
+      <p>
+        <label>
+          <span class="form__span js-result">Wynik: N/A</span>
+        </label>
+      </p>
+    </form>
+  </div>
 </body>
-
 </html>

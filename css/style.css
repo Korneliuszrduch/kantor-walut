@@ -2,17 +2,13 @@ html {
     box-sizing: border-box;
 }
 
-
 *, ::before, ::after {
     box-sizing: inherit;
 }
 
-.h1{
+.h2 {
 
     text-align: center;
     margin: 50px;
 }
-.form__result{
 
-    margin-top:45px;
-}
