@@ -1,0 +1,10 @@
+.body{
+
+background-image: url("../images/money.png");
+background-position: center;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
