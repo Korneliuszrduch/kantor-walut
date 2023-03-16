@@ -1,6 +1,6 @@
 .body {
 
-    background-image: url("../images/money.png");
+    background-image: url("../images/money.png?1");
     background-position: center;
     min-height: 100vh;
     display: flex;
